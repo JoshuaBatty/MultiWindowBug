@@ -30,6 +30,11 @@ void ofApp::setup(){
 
 //--------------------------------------------------------------
 void ofApp::update(){
+    cout << "Main winodow width = " << mainWindow->getWidth() <<
+    " -- Main window height = " << mainWindow->getHeight() <<
+    " -- Second window widht = " << secondWindow->getWidth() <<
+    " -- Second window height = " << secondWindow->getHeight() << endl;
+    
 }
 
 //--------------------------------------------------------------

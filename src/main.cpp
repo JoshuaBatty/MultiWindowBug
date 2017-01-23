@@ -8,7 +8,7 @@ int main(){
     
     //---- GUI WINDOW
     ofGLFWWindowSettings settings;
-    settings.setGLVersion(4,1);
+    settings.setGLVersion(3,2); //(4,1);
     settings.width = 920;
     settings.height = 480;
     settings.setPosition(ofVec2f(510,700));
